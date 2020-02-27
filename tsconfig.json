@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["es6"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "baseUrl": "./src",
+    "outDir": "./lib"
+  },
+  "exclude": ["node_modules", "jest.config.js"]
+}
